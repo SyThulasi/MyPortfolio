@@ -15,9 +15,8 @@ const Header=()=>{
                 <div className="sub__container">
                 <div className="details__container">
                     <h4>Hello I am</h4>
-                    <h1>Ravindran Abilash</h1>
-                    <h5 className="text-light heading1">Intermediate at - ReactJs,Node,Express and MongoDb.<br/> Love to play Volleyball.
-                        <br/>Undergraduate @University Of Peradeniya</h5>
+                    <h1>Thulasiyan Yogeswaran</h1>
+                    <h5 className="text-light heading1">Undergraduate Computer Engineering student at <br/>University of Peradeniya</h5>
                     <CTA/>
                     <HeaderSocials/>
                 </div>
