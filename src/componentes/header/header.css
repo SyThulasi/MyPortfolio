@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
@@ -101,5 +101,9 @@ header {
 
     .header__socials,.scroll__down{
         display: none;
+    }
+    .me{
+        width: 10%;
+        margin:25rem;
     }
 }

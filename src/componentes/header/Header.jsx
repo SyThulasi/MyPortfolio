@@ -2,7 +2,7 @@ import React from "react";
 import './header.css'
 import CTA from "./CTA";
 import ME from '../../assets/me.png'
-import Abilash2 from '../../assets/Abilash2.png'
+import Abilash2 from '../../assets/Thulasi2.png'
 import HeaderSocials from "./HeaderSocials";
 
 import {BsCaretDownSquareFill} from "react-icons/bs";
@@ -21,9 +21,9 @@ const Header=()=>{
                     <HeaderSocials/>
                 </div>
                     <div className="me__container">
-                <div className="me">
-                    <img src={Abilash2} alt="Abilash"/>
-                </div>
+                        <div className="me">
+                            <img src={Abilash2} alt="Abilash"/>
+                        </div>
                     </div>
                 </div>
 
