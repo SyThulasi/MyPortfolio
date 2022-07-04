@@ -72,7 +72,7 @@
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    margin: 0rem 0 2.6rem;
     color: var(--color-light);
 }
 
@@ -108,4 +108,17 @@
     .about__content p {
         margin: 1.5rem 0;
     }
+}
+
+a1 {
+    color: var(--color-light);
+    transition: var(--transition);
+}
+
+.bio__content {
+    padding-bottom: 10rem;
+}
+
+.bio_tag__box{
+    padding-bottom: 2rem;
 }

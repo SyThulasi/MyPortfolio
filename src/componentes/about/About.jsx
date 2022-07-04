@@ -4,9 +4,12 @@ import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from "react-icons/fa";
 import {FiUsers} from "react-icons/fi";
-import {VscFolderLibrary} from "react-icons/vsc";
+import {BsCalendarCheck, BsPhone} from "react-icons/bs";
 
 import Abilash4 from '../../assets/Thulasi3.png'
+import {BsPatchCheckFill} from "react-icons/bs";
+import {GoLocation} from "react-icons/go";
+import {AiOutlineMail} from "react-icons/ai";
 
 const About=()=>{
     return(
@@ -24,24 +27,23 @@ const About=()=>{
 
 
             <div className="about__content">
-                <div className="about__cards">
-                    <article className="about__card">
-                        <FaAward className="about__icon"/>
-                        <h5>Experience</h5>
-                        <small>1+ Years</small>
-                    </article>
-                    {/*<article className="about__card">*/}
-                    {/*    <FiUsers className="about__icon"/>*/}
-                    {/*    <h5>Clients</h5>*/}
-                    {/*    <small>200+ Worldwide</small>*/}
-                    {/*</article>*/}
-                    <article className="about__card">
-                        <VscFolderLibrary className="about__icon"/>
-                        <h5>Projects</h5>
-                        <small>3 Completed</small>
-                    </article>
-                </div>
-
+                {/*<div className="about__cards">*/}
+                {/*    <article className="about__card">*/}
+                {/*        <FaAward className="about__icon"/>*/}
+                {/*        <h5>Experience</h5>*/}
+                {/*        <small>1+ Years</small>*/}
+                {/*    </article>*/}
+                {/*    /!*<article className="about__card">*!/*/}
+                {/*    /!*    <FiUsers className="about__icon"/>*!/*/}
+                {/*    /!*    <h5>Clients</h5>*!/*/}
+                {/*    /!*    <small>200+ Worldwide</small>*!/*/}
+                {/*    /!*</article>*!/*/}
+                {/*    <article className="about__card">*/}
+                {/*        <VscFolderLibrary className="about__icon"/>*/}
+                {/*        <h5>Projects</h5>*/}
+                {/*        <small>3 Completed</small>*/}
+                {/*    </article>*/}
+                {/*</div>*/}
                 <p>
                     &emsp;Hello!. I'm Thulasiyan Yogeswaran. I am a dedicated, hardworking, and self motivated individual with the willingness
                     to explore new things in the field of the computer engineering and I engaged myself with some Flutter based Mobile application
@@ -56,9 +58,37 @@ const About=()=>{
                     {/*And also I am too much addicted with travelling which makes me to explore the world and sometimes myself.*/}
                     {/*I am good at playing volley ball which keeps me physically strong.*/}
                 </p>
-                <a href="contact" className="btn btn-primary">Let's Talk</a>
+                <div className="bio_content">
+
+                    <div className={'bio_tag__box'}>
+                        <h3 className='bio__tag'>Bio</h3>
+                    </div>
+                    <div className="portfolio__item-cta">
+                        <BsCalendarCheck className="experience__details-ion"/>
+                        <a1>Age&emsp;&emsp;&emsp;:</a1>
+                        <a1>23</a1>
+                    </div>
+                    <div className="portfolio__item-cta">
+                        <AiOutlineMail className="experience__details-ion"/>
+                        <a1>Email &emsp;&emsp;:</a1>
+                        <a1>sythulasi.6@gmail.com</a1>
+                    </div>
+                    <div className="portfolio__item-cta">
+                        <BsPhone className="experience__details-ion"/>
+                        <a1>Phone&emsp;&emsp;:</a1>
+                        <a1>0094762871954</a1>
+                    </div>
+                    <div className="portfolio__item-cta">
+                        <GoLocation className="experience__details-ion"/>
+                        <a1>Address&emsp;:</a1>
+                        <a1>Kuddip pillaiyar lane, <br/>Kondavil west,<br/> Kondavil, <br/> Jaffna,<br/>Srilanka.</a1>
+                    </div>
+                </div>
+                <a href="#contact" className="btn btn-primary">Let's Talk</a>
             </div>
+
             </div>
+
         </section>
     )
 }

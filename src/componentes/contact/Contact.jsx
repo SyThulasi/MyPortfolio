@@ -14,7 +14,7 @@ const Contact=()=>{
         e.preventDefault();
 
         //https://www.emailjs.com/
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_7v3u30l', 'template_y1ft6fq', form.current, 'K-dx77obcTa8W2LZ6')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -33,19 +33,19 @@ const Contact=()=>{
                         <MdOutlineEmail className="contact__option-icon"/>
                         <h4>Email</h4>
                         <h5>abilash@gamil.com</h5>
-                        <a href="mailto:abilash@gamil.com" target="_blank">Send a message</a>
+                        <a href="mailto:sythulasi.6@gmail.com" target="_blank">Send a message</a>
                     </article>
                     <article className="contact__option">
                         <RiMessengerLine className="contact__option-icon"/>
                         <h4>Messenger</h4>
-                        <h5>Ravindran Abilash</h5>
-                        <a href="hhtps://m.me/ravindran.abilash" target="_blank">Send a message</a>
+                        <h5>Sy Thulasi</h5>
+                        <a href="https://m.me/S.Y.THULA" target="_blank">Send a message</a>
                     </article>
                     <article className="contact__option">
                         <BsWhatsapp className="contact__option-icon"/>
                         <h4>Whatsapp</h4>
-                        <h5>0094767642021</h5>
-                        <a href="https://api.whatsapp.com/send?phone+=0094767642021" target="_blank">Send a message</a>
+                        <h5>0094779293112</h5>
+                        <a href="https://api.whatsapp.com/send?phone+=0094779293112" target="_blank">Send a message</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>

@@ -20,28 +20,28 @@ const data = [
     {
         avatar: Avatar1,
         title: "Most popular Hooks in ReactJs",
-        name: "Ravindran Abilash",
+        name: "Thulsiyan Yogeswaran",
         link: "medium.com",
         review:"imen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..."
     },
     {
         avatar: Avatar2,
         title: "Most popular Hooks in ReactJs",
-        name: "Ravindran Abilash",
+        name: "Thulsiyan Yogeswaran",
         link: "medium.com",
         review:"imen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
         avatar: Avatar3,
         title: "Most popular Hooks in ReactJs",
-        name: "Ravindran Abilash",
+        name: "Thulsiyan Yogeswaran",
         link: "medium.com",
         review:"imen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
         avatar: Avatar4,
         title: "Most popular Hooks in ReactJs",
-        name: "Ravindran Abilash",
+        name: "Thulsiyan Yogeswaran",
         link: "medium.com",
         review:"imen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     }

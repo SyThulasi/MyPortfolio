@@ -2,15 +2,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:2rem;
+    padding-top: 2rem;
 }
 
 .first__heading__experience{
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
