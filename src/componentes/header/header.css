@@ -92,18 +92,39 @@ header {
     header {
         height: 68vh;
     }
+    .sub__container{
+        margin: 0 auto;
+        margin-left: 0%;
+    }
 }
 
 @media screen and (max-width: 600px){
-    header {
-        height: 100vh;
+    header{
+        height: 110vh;
+        padding-top: 0rem;
+        overflow: visible ;
+        margin-bottom: 2rem;
+    }
+    .header__container{
+        position: initial;
+    }
+    .sub__container{
+        display: initial;
+        place-items: center;
+    }
+
+    .details__container{
+        margin-left: 0%;
+        margin-bottom: 0%;
     }
 
     .header__socials,.scroll__down{
         display: none;
     }
+    .me__container{
+        padding-top: 0rem;
+    }
     .me{
-        width: 10%;
-        margin:25rem;
+        margin-top: 2rem;
     }
 }

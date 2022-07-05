@@ -49,7 +49,7 @@ const data = [
 
 const Blogs=()=>{
     return(
-        <section id="blogs">
+        <section id="blogs" className= 'blog__section'>
             <div className="divider div-transparent"></div>
             <h5 className="first__heading__blogs">My Recent Blogs</h5>
             <h2>Blogs</h2>

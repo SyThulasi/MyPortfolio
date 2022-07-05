@@ -1,4 +1,5 @@
 .experience__container{
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:2rem;
@@ -46,6 +47,10 @@
 }
 
 @media screen and (max-width: 1024px){
+    .experience__section{
+        padding-top: 10rem;
+    }
+
     .experience__container{
         grid-template-columns: 1fr;
     }

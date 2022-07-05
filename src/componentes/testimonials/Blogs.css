@@ -43,8 +43,13 @@
 }
 
 @media screen and (max-width: 600px){
+    .blog__section{
+        padding-top: 150rem;
+    }
     .container.testimonials_container{
         width: var(--container-width-sm);
+        display: grid;
+        grid-template-columns: 35% 35%;
     }
     .client__review{
         width: var(--container-width-sm);
