@@ -67,22 +67,22 @@ const About = () => {
                             <h3 className='bio__tag'>Bio</h3>
                         </div>
                         <div className="portfolio__item-cta">
-                            <BsCalendarCheck className="experience__details-ion"/>
+                            <BsCalendarCheck className="about__details-ion"/>
                             <a1>Age</a1>
-                            <a1>: 23</a1>
+                            <a1>&emsp;&emsp;: 23</a1>
                         </div>
                         <div className="portfolio__item-cta">
-                            <AiOutlineMail className="experience__details-ion"/>
+                            <AiOutlineMail className="about__details-ion"/>
                             <a1>Email</a1>
-                            <a1>: sythulasi.6@gmail.com</a1>
+                            <a1>&nbsp;&emsp;: sythulasi.6@gmail.com</a1>
                         </div>
                         <div className="portfolio__item-cta">
-                            <BsPhone className="experience__details-ion"/>
+                            <BsPhone className="about__details-ion"/>
                             <a1>Phone</a1>
-                            <a1>: 0094762871954</a1>
+                            <a1>&emsp;: 0094762871954</a1>
                         </div>
                         <div className="portfolio__item-cta">
-                            <GoLocation className="experience__details-ion"/>
+                            <GoLocation className="about__details-ion"/>
                             <a1>Address</a1>
                             <div className="address">
                                 <a1>: Kuddip pillaiyar lane, <br/>Kondavil west,<br/>Kondavil, <br/>Jaffna,<br/>Srilanka.</a1>

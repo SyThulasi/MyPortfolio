@@ -93,6 +93,11 @@ a1 {
     padding-bottom: 2rem;
 }
 
+.portfolio__item-cta about__details-ion{
+    margin-top: 15px;
+    color: var(--color-primary);
+}
+
 @media screen  and (max-width: 1024px){
     .about__container {
         grid-template-columns: 1fr;

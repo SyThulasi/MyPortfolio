@@ -1,10 +1,10 @@
 .section__portfolio{
-    height: 140vh;
+    height: 135vh;
 }
 
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 30% 30% 30%;
     gap: 2.0rem;
 }
 
@@ -14,6 +14,10 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+}
+
+.container.testimonials_container{
+    display: none;
 }
 
 .portfolio__item:hover{
@@ -45,7 +49,19 @@
 
 @media screen and (max-width: 600px) {
     .portfolio__container {
+        display: flex;
         grid-template-columns: 1fr;
         gap: 1rem;
+        padding-bottom: 2rem;
+    }
+    .section__portfolio{
+        height: 90vh;
+        padding-bottom: 1rem;
+    }
+    .container.testimonials_container{
+        display: grid;
+    }
+    .portfolio__container{
+        display: none;
     }
 }

@@ -1,10 +1,12 @@
 .container.testimonials_container {
     width: 40%;
     padding-bottom: 4rem;
+    display: grid;
 }
 
+
 .first__heading__blogs{
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet  {
@@ -44,7 +46,7 @@
 
 @media screen and (max-width: 600px){
     .blog__section{
-        padding-top: 150rem;
+        padding-top: 100rem;
     }
     .container.testimonials_container{
         width: var(--container-width-sm);

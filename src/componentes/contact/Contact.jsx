@@ -23,7 +23,7 @@ const Contact=()=>{
         e.target.reset();
     };
     return(
-        <section style={{height:"60vh"}} id="contact">
+        <section style={{height:"60vh"}} id="contact" className="contact_section">
             <div className="divider div-transparent"></div>
             <h5 style={{marginTop:"1rem"}}>Do you like to talk</h5>
             <h2>Contact</h2>

@@ -7,6 +7,8 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
+import {Pagination} from "swiper";
+import {Swiper, SwiperSlide} from "swiper/react";
 
 const data = [
     {
@@ -62,7 +64,7 @@ const Portfolio = () => {
 
             <div className="container portfolio__container">
                 {
-                    data.map(({id, image, title, github, demo}) => {
+                    data.map(({id, image, title, github, demo},index) => {
                         return (
                             <article key={id} className="portfolio__item">
                                 <div className="portfolio__item-image">
@@ -79,6 +81,32 @@ const Portfolio = () => {
                 }
 
             </div>
+
+            <Swiper className="container testimonials_container"
+                    modules={[Pagination]}
+                    spaceBetween={40}
+                    slidesPerView={1}
+                    pagination={{clickable: true}}>
+                {
+                    data.map(({id, image, title, github, demo},index)=> {
+                return (
+                <SwiperSlide key={index} className="testimonial">
+                <article key={id} className="portfolio__item">
+                <div className="portfolio__item-image">
+                <img src={image} alt={title}/>
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item-cta">
+                <a href={github} className="btn" target="_blank">Github</a>
+                <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>
+                </div>
+                </article>
+                </SwiperSlide>
+                )
+            })
+                }
+
+            </Swiper>
         </section>
     )
 }
