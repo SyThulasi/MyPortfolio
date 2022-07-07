@@ -82,31 +82,31 @@ const Portfolio = () => {
 
             </div>
 
-            <Swiper className="container testimonials_container"
-                    modules={[Pagination]}
-                    spaceBetween={40}
-                    slidesPerView={1}
-                    pagination={{clickable: true}}>
-                {
-                    data.map(({id, image, title, github, demo},index)=> {
-                return (
-                <SwiperSlide key={index} className="testimonial">
-                <article key={id} className="portfolio__item">
-                <div className="portfolio__item-image">
-                <img src={image} alt={title}/>
-                </div>
-                <h3>{title}</h3>
-                <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">Github</a>
-                <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>
-                </div>
-                </article>
-                </SwiperSlide>
-                )
-            })
-                }
+            {/*<Swiper className="container testimonials_container"*/}
+            {/*        modules={[Pagination]}*/}
+            {/*        spaceBetween={40}*/}
+            {/*        slidesPerView={1}*/}
+            {/*        pagination={{clickable: true}}>*/}
+            {/*    {*/}
+            {/*        data.map(({id, image, title, github, demo},index)=> {*/}
+            {/*    return (*/}
+            {/*    <SwiperSlide key={index} className="testimonial">*/}
+            {/*    <article key={id} className="portfolio__item">*/}
+            {/*    <div className="portfolio__item-image">*/}
+            {/*    <img src={image} alt={title}/>*/}
+            {/*    </div>*/}
+            {/*    <h3>{title}</h3>*/}
+            {/*    <div className="portfolio__item-cta">*/}
+            {/*    <a href={github} className="btn" target="_blank">Github</a>*/}
+            {/*    <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>*/}
+            {/*    </div>*/}
+            {/*    </article>*/}
+            {/*    </SwiperSlide>*/}
+            {/*    )*/}
+            {/*})*/}
+            {/*    }*/}
 
-            </Swiper>
+            {/*</Swiper>*/}
         </section>
     )
 }

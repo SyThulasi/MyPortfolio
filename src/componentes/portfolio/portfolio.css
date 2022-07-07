@@ -49,19 +49,17 @@
 
 @media screen and (max-width: 600px) {
     .portfolio__container {
-        display: flex;
+
         grid-template-columns: 1fr;
         gap: 1rem;
         padding-bottom: 2rem;
     }
     .section__portfolio{
-        height: 90vh;
+        height: 100%;
         padding-bottom: 1rem;
     }
     .container.testimonials_container{
         display: grid;
     }
-    .portfolio__container{
-        display: none;
-    }
+
 }
