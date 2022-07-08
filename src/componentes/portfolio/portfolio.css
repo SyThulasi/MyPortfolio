@@ -1,11 +1,12 @@
 .section__portfolio{
-    height: 135vh;
+    height: 100vh;
 }
 
 .portfolio__container {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     gap: 2.0rem;
+    padding-top: 3rem;
 }
 
 .portfolio__item {
@@ -37,6 +38,7 @@
 .portfolio__item-cta{
     display: flex;
     gap: 1rem;
+    padding-left: 32%;
     margin-bottom: 1rem;
 }
 
@@ -45,11 +47,14 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    .section__portfolio{
+        height: 165vh;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .portfolio__container {
-
+        display: none;
         grid-template-columns: 1fr;
         gap: 1rem;
         padding-bottom: 2rem;

@@ -66,22 +66,22 @@ const About = () => {
                         <div className={'bio_tag__box'}>
                             <h3 className='bio__tag'>Bio</h3>
                         </div>
-                        <div className="portfolio__item-cta">
+                        <div className="bio__item-cta">
                             <BsCalendarCheck className="about__details-ion"/>
                             <a1>Age</a1>
                             <a1>&emsp;&emsp;: 23</a1>
                         </div>
-                        <div className="portfolio__item-cta">
+                        <div className="bio__item-cta">
                             <AiOutlineMail className="about__details-ion"/>
                             <a1>Email</a1>
                             <a1>&nbsp;&emsp;: sythulasi.6@gmail.com</a1>
                         </div>
-                        <div className="portfolio__item-cta">
+                        <div className="bio__item-cta">
                             <BsPhone className="about__details-ion"/>
                             <a1>Phone</a1>
                             <a1>&emsp;: 0094762871954</a1>
                         </div>
-                        <div className="portfolio__item-cta">
+                        <div className="bio__item-cta">
                             <GoLocation className="about__details-ion"/>
                             <a1>Address</a1>
                             <div className="address">
