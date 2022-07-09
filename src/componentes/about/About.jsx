@@ -6,7 +6,7 @@ import {FaAward} from "react-icons/fa";
 import {FiUsers} from "react-icons/fi";
 import {BsCalendarCheck, BsPhone} from "react-icons/bs";
 
-import Abilash4 from '../../assets/Thulasi3.png'
+import Thulasi4 from '../../assets/Thulasi3.png'
 import {BsPatchCheckFill} from "react-icons/bs";
 import {GoLocation} from "react-icons/go";
 import {AiOutlineMail} from "react-icons/ai";
@@ -21,7 +21,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={Abilash4} alt="Abilash"/>
+                        <img src={Thulasi4} alt="Thulasi"/>
                     </div>
                 </div>
 
