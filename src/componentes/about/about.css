@@ -163,7 +163,6 @@ a1 {
 /*Education*/
 
 .wrapper{
-    position: unset;
     max-width: 1000px;
     margin: 50px auto;
     padding: 0 30px;
@@ -173,6 +172,7 @@ a1 {
     text-align: center;
 }
 .education-section{
+    padding-top: 2rem;
     position: relative;
 }
 .wrapper .center-line{
@@ -303,7 +303,10 @@ a1 {
         display: none;
     }
     .wrapper .row{
-        margin: 10px 0;
+        margin: 20px 0;
+    }
+    .wrapper{
+        padding-top: 4rem;
     }
 }
 

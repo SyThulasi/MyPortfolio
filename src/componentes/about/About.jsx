@@ -93,18 +93,13 @@ const About = () => {
                 </div>
 
             </div>
-            {/*<div>*/}
-            {/*    <h2>Education</h2>*/}
-            {/*    <div>*/}
-            {/*        */}
-            {/*    </div>*/}
-            {/*</div>*/}
+
             <div className="wrapper" id="Education">
+                <div className= "education">
+                    <h2>Education</h2>
+                </div>
 
                 <section className="education-section">
-                    <div className= "education">
-                        <h2>Education</h2>
-                    </div>
                     <div className="center-line">
                         <a href="#Education" className="scroll-icon"><i className="fas fa-caret-up"></i></a>
                     </div>
@@ -132,7 +127,7 @@ const About = () => {
                             </div>
                             <div className="details">
                                 {/*<span>University Of Peradeniya</span>*/}
-                                <h5>BT/Shivananda school</h5>
+                                <h5>J/ Kokuvil Hindu College</h5>
                             </div>
                             <div className="details">
                                 <span>2010 - 2018</span>
