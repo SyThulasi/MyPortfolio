@@ -93,50 +93,79 @@ const About = () => {
                 </div>
 
             </div>
-
-            <div className="wrapper" id="Education">
-                <div className= "education">
-                    <h2>Education</h2>
-                </div>
-
-                <section className="education-section">
-                    <div className="center-line">
-                        <a href="#Education" className="scroll-icon"><i className="fas fa-caret-up"></i></a>
+            <section className="timeline-section">
+                    <div className= "education">
+                        <h2>Education</h2>
                     </div>
-                    <div className="row row-1">
-                        <section>
-                            <i className="icon fas fa-star"></i>
-                            <div className="details">
-                                <h3>BSc. in Computer Engineering</h3>
-                            </div>
-                            <div className="details">
-                                {/*<span>University Of Peradeniya</span>*/}
-                                <h5>University Of Peradeniya</h5>
-                            </div>
-                            <div className="details">
-                                <span>2019 - Now</span>
-                            </div>
+                <div className="timeline-items">
+                    <div className="timeline-item">
+                        <div className="timeline-dot"></div>
+                        <div className="timeline-date">Now</div>
+                        <div className="timeline-content">
+                            <h3>BSc. in Computer Engineering</h3>
+                            <h5>University Of PeradeniyaUniversity Of Peradeniya</h5>
                             <p>Current GPA : 3.47/4.00</p>
-                        </section>
+                        </div>
                     </div>
-                    <div className="row row-2">
-                        <section>
-                            <i className="icon fas fa-star"></i>
-                            <div className="details">
-                                <h3>Physical Science</h3>
-                            </div>
-                            <div className="details">
-                                {/*<span>University Of Peradeniya</span>*/}
-                                <h5>J/ Kokuvil Hindu College</h5>
-                            </div>
-                            <div className="details">
-                                <span>2010 - 2018</span>
-                            </div>
+                    <div className="timeline-item">
+                        <div className="timeline-dot"></div>
+                        <div className="timeline-date">2018</div>
+                        <div className="timeline-content">
+                            <h3>Physical Science</h3>
+                            <h5>J/ Kokuvil Hindu College</h5>
                             <p>Passed G.C.E.(A/L) examination with 2A’s B</p>
-                        </section>
+                        </div>
                     </div>
-                </section>
+                    <div className="timeline-item">
+                        <div className="timeline-dot"></div>
+                        <div className="timeline-date">2010</div>
+                    </div>
                 </div>
+            </section>
+
+            {/*<div className="wrapper" id="Education">*/}
+            {/*    <div className= "education">*/}
+            {/*        <h2>Education</h2>*/}
+            {/*    </div>*/}
+
+            {/*    <section className="education-section">*/}
+            {/*        <div className="center-line">*/}
+            {/*            <a href="#Education" className="scroll-icon"><i className="fas fa-caret-up"></i></a>*/}
+            {/*        </div>*/}
+            {/*        <div className="row row-1">*/}
+            {/*            <section>*/}
+            {/*                <i className="icon fas fa-star"></i>*/}
+            {/*                <div className="details">*/}
+            {/*                    <h3>BSc. in Computer Engineering</h3>*/}
+            {/*                </div>*/}
+            {/*                <div className="details">*/}
+            {/*                    /!*<span>University Of Peradeniya</span>*!/*/}
+            {/*                    <h5>University Of Peradeniya</h5>*/}
+            {/*                </div>*/}
+            {/*                <div className="details">*/}
+            {/*                    <span>2019 - Now</span>*/}
+            {/*                </div>*/}
+            {/*                <p>Current GPA : 3.47/4.00</p>*/}
+            {/*            </section>*/}
+            {/*        </div>*/}
+            {/*        <div className="row row-2">*/}
+            {/*            <section>*/}
+            {/*                <i className="icon fas fa-star"></i>*/}
+            {/*                <div className="details">*/}
+            {/*                    <h3>Physical Science</h3>*/}
+            {/*                </div>*/}
+            {/*                <div className="details">*/}
+            {/*                    /!*<span>University Of Peradeniya</span>*!/*/}
+            {/*                    <h5>J/ Kokuvil Hindu College</h5>*/}
+            {/*                </div>*/}
+            {/*                <div className="details">*/}
+            {/*                    <span>2010 - 2018</span>*/}
+            {/*                </div>*/}
+            {/*                <p>Passed G.C.E.(A/L) examination with 2A’s B</p>*/}
+            {/*            </section>*/}
+            {/*        </div>*/}
+            {/*    </section>*/}
+            {/*    </div>*/}
 
 
 
