@@ -213,9 +213,15 @@ a1 {
     margin:6px 0 15px;
 }
 .timeline-content{
-    background-color: #2f363e;
+    background-color: var(--color-bg-variant);
     padding: 30px;
     border-radius: 5px;
+    border: 1px solid transparent;
+}
+.timeline-item .timeline-content :hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
 }
 .timeline-content h3{
     font-size: 20px;
