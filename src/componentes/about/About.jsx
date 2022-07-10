@@ -103,7 +103,7 @@ const About = () => {
                         <div className="timeline-date">Now</div>
                         <div className="timeline-content">
                             <h3>BSc. in Computer Engineering</h3>
-                            <h5>University Of PeradeniyaUniversity Of Peradeniya</h5>
+                            <h5>University Of Peradeniya</h5>
                             <p>Current GPA : 3.47/4.00</p>
                         </div>
                     </div>

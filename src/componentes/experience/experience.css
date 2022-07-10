@@ -88,19 +88,19 @@
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .progress-line.python  span{
-    width: 75%;
-}
-.progress-line.java  span{
-    width: 65%;
-}
-.progress-line.javascript  span{
-    width: 55%;
-}
-.progress-line.c  span{
     width: 70%;
 }
-.progress-line.arm  span{
+.progress-line.java  span{
+    width: 55%;
+}
+.progress-line.javascript  span{
     width: 50%;
+}
+.progress-line.c  span{
+    width: 65%;
+}
+.progress-line.arm  span{
+    width: 45%;
 }
 .progress-line.verilog  span{
     width: 40%;
@@ -112,7 +112,7 @@
     width: 50%;
 }
 .progress-line.react  span{
-    width: 50%;
+    width: 60%;
 }
 .progress-line.spring  span{
     width: 35%;
@@ -130,7 +130,7 @@
     width: 45%;
 }
 .progress-line.dart  span{
-    width: 50%;
+    width: 60%;
 }
 .progress-line.ps  span{
     width: 75%;
@@ -139,10 +139,10 @@
     width: 60%;
 }
 .progress-line.pr  span{
-    width: 55%;
+    width: 50%;
 }
 .progress-line.autocad  span{
-    width: 55%;
+    width: 50%;
 }
 .progress-line.xd  span{
     width: 50%;
@@ -154,9 +154,6 @@
 
 
 @media screen and (max-width: 1024px){
-    .experience__section{
-        padding-top: 10rem;
-    }
 
     .experience__container{
         grid-template-columns: 1fr;
