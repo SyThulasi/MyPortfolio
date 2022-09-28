@@ -1,13 +1,9 @@
 import React from "react";
 import './about.css'
 
-import ME from '../../assets/me-about.jpg'
-import {FaAward} from "react-icons/fa";
-import {FiUsers} from "react-icons/fi";
 import {BsCalendarCheck, BsPhone} from "react-icons/bs";
 
 import Thulasi4 from '../../assets/Thulasi3.png'
-import {BsPatchCheckFill} from "react-icons/bs";
 import {GoLocation} from "react-icons/go";
 import {AiOutlineMail} from "react-icons/ai";
 
