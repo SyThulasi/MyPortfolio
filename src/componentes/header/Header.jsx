@@ -1,7 +1,7 @@
 import React from "react";
 import './header.css'
 import CTA from "./CTA";
-import Thulasi from '../../assets/Thulasi2.png'
+import Thulasi from '../../assets/Thulasi.png'
 import HeaderSocials from "./HeaderSocials";
 
 import {BsCaretDownSquareFill} from "react-icons/bs";

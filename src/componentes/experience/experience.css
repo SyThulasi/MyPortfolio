@@ -91,10 +91,10 @@
     width: 70%;
 }
 .progress-line.java  span{
-    width: 55%;
+    width: 80%;
 }
 .progress-line.javascript  span{
-    width: 50%;
+    width: 70%;
 }
 .progress-line.c  span{
     width: 65%;
@@ -112,10 +112,10 @@
     width: 50%;
 }
 .progress-line.react  span{
-    width: 60%;
+    width: 80%;
 }
 .progress-line.spring  span{
-    width: 35%;
+    width: 75%;
 }
 .progress-line.firebase  span{
      width: 40%;

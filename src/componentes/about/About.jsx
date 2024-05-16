@@ -41,14 +41,11 @@ const About = () => {
                     {/*    </article>*/}
                     {/*</div>*/}
                     <p>
-                        &emsp;Hello!. I'm Thulasiyan Yogeswaran. I am a dedicated, hardworking, and self motivated
-                        individual with the willingness
-                        to explore new things in the field of the computer engineering and I engaged myself with some
-                        Flutter based Mobile application
-                        projects. I hope to learn machine learning and passionate to join some AI project researches in
-                        near future. <br/><br/>
-                        &emsp;I am seeking a position where my skills can utilize and
-                        get experience as a trainee to become a successful professional in the industry.
+                        &emsp;Hello!. I'm Thulasiyan Yogeswaran. I am a dedicated and self-motivated computer engineering 
+                        undergraduate seeking a position where I can utilize my skills and gain experience as a full-stack 
+                        or back-end software engineer to further my career, become a successful professional in the industry, 
+                        and make significant contributions to the team and company. <br/><br/>
+                        &emsp;
                         {/*&emsp;I am currently doing my undergraduate degree under computing department of Faculty of engineering, University of Peradeniya.*/}
                         {/*I am a passionate tech enthusiast and currently i engaged myself with some web based projects.*/}
                         {/*I also got interest to develop apps and website through full stack web development using latest technologies.*/}
@@ -63,11 +60,6 @@ const About = () => {
                             <h3 className='bio__tag'>Bio</h3>
                         </div>
                         <div className="bio__item-cta">
-                            <BsCalendarCheck className="about__details-ion"/>
-                            <a1>Age</a1>
-                            <a1>&emsp;&emsp;: 23</a1>
-                        </div>
-                        <div className="bio__item-cta">
                             <AiOutlineMail className="about__details-ion"/>
                             <a1>Email</a1>
                             <a1>&nbsp;&emsp;: sythulasi.6@gmail.com</a1>
@@ -75,7 +67,7 @@ const About = () => {
                         <div className="bio__item-cta">
                             <BsPhone className="about__details-ion"/>
                             <a1>Phone</a1>
-                            <a1>&emsp;: 0094762871954</a1>
+                            <a1>&emsp;: +94 76 287 1954</a1>
                         </div>
                         <div className="bio__item-cta">
                             <GoLocation className="about__details-ion"/>
@@ -98,9 +90,9 @@ const About = () => {
                         <div className="timeline-dot"></div>
                         <div className="timeline-date">Now</div>
                         <div className="timeline-content">
-                            <h3>BSc. in Computer Engineering</h3>
+                            <h3>BSc Engineering honours in Computer Engineering</h3>
                             <h5>University Of Peradeniya</h5>
-                            <p>Current GPA : 3.47/4.00</p>
+                            <p>Current GPA : 3.40/4.00</p>
                         </div>
                     </div>
                     <div className="timeline-item">

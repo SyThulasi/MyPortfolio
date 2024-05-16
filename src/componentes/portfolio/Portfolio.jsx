@@ -14,22 +14,22 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: "Cryptocurrency Auction Management System",
-        github: "https://github.com/SyThulasi/CryptoCurrency-Bidding-App",
+        title: "Corals Protector",
+        github: "https://github.com/SyThulasi/e18-3yp-Corals-Protector",
         demo: "google.com"
     },
     {
         id: 2,
         image: IMG3,
-        title: "Be The Change Android Mobile App Login ",
-        github: "https://github.com/SyThulasi/BeTheChange_App",
+        title: "Cinema App",
+        github: "https://github.com/SyThulasi/CinemaApp",
         demo: "google.com"
     },
     {
         id: 3,
         image: IMG2,
-        title: "Data visualizer",
-        github: "https://github.com/SyThulasi/MeetingDataVisualizer",
+        title: "Automated Medical Image Annotation for Dataset Building",
+        github: "https://github.com/SyThulasi/e18-4yp-Automated-Medical-Image-Annotation-for-Dataset-Building/tree/main",
         demo: "google.com"
     },
     // {

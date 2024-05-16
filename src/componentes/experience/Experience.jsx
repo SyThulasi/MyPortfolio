@@ -13,18 +13,7 @@ const Experience = () => {
                 <div className="experience__frontend">
                     <h3>Programming Languages</h3>
                     <div className="experience__content">
-                        <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-ion"/>
-                            <div>
-                                <h4>Python</h4>
-                                {/*<small className="text-light">Experienced</small>*/}
-                                <div className="progress-line python">
-                                    <span></span>
-                                </div>
-                            </div>
-
-                        </article>
-                        <article className="experience__details">
+                    <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
                                 <h4>Java</h4>
@@ -41,6 +30,17 @@ const Experience = () => {
                                     <span></span>
                                 </div>
                             </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-ion"/>
+                            <div>
+                                <h4>Python</h4>
+                                {/*<small className="text-light">Experienced</small>*/}
+                                <div className="progress-line python">
+                                    <span></span>
+                                </div>
+                            </div>
+
                         </article>
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
@@ -74,6 +74,24 @@ const Experience = () => {
                     <div className="experience__frontend">
                         <h3>Frontend & Backend & Database</h3>
                         <div className="experience__content">
+                        <article className="experience__details">
+                                <BsPatchCheckFill className="experience__details-ion"/>
+                                <div>
+                                    <h4>React</h4>
+                                    <div className="progress-line react">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article className="experience__details">
+                                <BsPatchCheckFill className="experience__details-ion"/>
+                                <div>
+                                    <h4>Spring</h4>
+                                    <div className="progress-line spring">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </article>
                             <article className="experience__details">
                                 <BsPatchCheckFill className="experience__details-ion"/>
                                 <div>
@@ -93,24 +111,8 @@ const Experience = () => {
                                     </div>
                                 </div>
                             </article>
-                            <article className="experience__details">
-                                <BsPatchCheckFill className="experience__details-ion"/>
-                                <div>
-                                    <h4>React</h4>
-                                    <div className="progress-line react">
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </article>
-                            <article className="experience__details">
-                                <BsPatchCheckFill className="experience__details-ion"/>
-                                <div>
-                                    <h4>Spring</h4>
-                                    <div className="progress-line spring">
-                                        <span></span>
-                                    </div>
-                                </div>
-                            </article>
+                            
+                            
                             <article className="experience__details">
                                 <BsPatchCheckFill className="experience__details-ion"/>
                                 <div>
