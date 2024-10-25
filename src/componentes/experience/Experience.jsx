@@ -54,7 +54,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4>Verilog HDL</h4>
+                                <h4>Dart</h4>
                                 <div className="progress-line verilog">
                                     <span></span>
                                 </div>
@@ -63,7 +63,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4>Verilog HDL</h4>
+                                <h4>GO</h4>
                                 <div className="progress-line verilog">
                                     <span></span>
                                 </div>
@@ -81,7 +81,7 @@ const Experience = () => {
                     </div>
                 </div>
                     <div className="experience__frontend">
-                        <h3>Frontend & Backend & Database</h3>
+                        <h3>Frameworks & Databases</h3>
                         <div className="experience__content">
                         <article className="experience__details">
                                 <BsPatchCheckFill className="experience__details-ion"/>
@@ -95,7 +95,7 @@ const Experience = () => {
                             <article className="experience__details">
                                 <BsPatchCheckFill className="experience__details-ion"/>
                                 <div>
-                                    <h4>Spring</h4>
+                                    <h4>Spring Boot</h4>
                                     <div className="progress-line spring">
                                         <span></span>
                                     </div>
@@ -104,7 +104,7 @@ const Experience = () => {
                             <article className="experience__details">
                                 <BsPatchCheckFill className="experience__details-ion"/>
                                 <div>
-                                    <h4>HTML</h4>
+                                    <h4>Node.js</h4>
                                     <div className="progress-line html">
                                         <span></span>
                                     </div>
@@ -114,7 +114,7 @@ const Experience = () => {
                             <article className="experience__details">
                                 <BsPatchCheckFill className="experience__details-ion"/>
                                 <div>
-                                    <h4>CSS</h4>
+                                    <h4>Flutter</h4>
                                     <div className="progress-line css">
                                         <span></span>
                                     </div>
@@ -125,7 +125,7 @@ const Experience = () => {
                             <article className="experience__details">
                                 <BsPatchCheckFill className="experience__details-ion"/>
                                 <div>
-                                    <h4>Firebase</h4>
+                                    <h4>SQL</h4>
                                     <div className="progress-line firebase">
                                         <span></span>
                                     </div>
@@ -134,7 +134,16 @@ const Experience = () => {
                             <article className="experience__details">
                                 <BsPatchCheckFill className="experience__details-ion"/>
                                 <div>
-                                    <h4>MySql</h4>
+                                    <h4>MongoDB</h4>
+                                    <div className="progress-line mysql">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article className="experience__details">
+                                <BsPatchCheckFill className="experience__details-ion"/>
+                                <div>
+                                    <h4>Firebase</h4>
                                     <div className="progress-line mysql">
                                         <span></span>
                                     </div>
@@ -142,51 +151,19 @@ const Experience = () => {
                             </article>
                         </div>
                     </div>
-                <div className="experience__frontend">
-                    <h3>Mobile App Development</h3>
-                    <div className="experience__content">
-                        <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-ion"/>
-                            <div>
-                                <h4>Android</h4>
-                                <div className="progress-line android">
-                                    <span></span>
-                                </div>
-                            </div>
-
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-ion"/>
-                            <div>
-                                <h4>Flutter</h4>
-                                <div className="progress-line flutter">
-                                    <span></span>
-                                </div>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className="experience__details-ion"/>
-                            <div>
-                                <h4>Dart</h4>
-                                <div className="progress-line dart">
-                                    <span></span>
-                                </div>
-                            </div>
-                        </article>
-                        {/*<article className="experience__details">*/}
-                        {/*    <BsPatchCheckFill className="experience__details-ion"/>*/}
-                        {/*    <div>*/}
-                        {/*        <h4>Reactnative</h4>*/}
-                        {/*        <div className="progress-line">*/}
-                        {/*            <span></span>*/}
-                        {/*        </div>*/}
-                        {/*    </div>*/}
-                        {/*</article>*/}
-                    </div>
-                </div>
+            
                 <div className="experience__backend">
-                    <h3>Others<br/><br/></h3>
+                    <h3>Tools & Technologies<br/><br/></h3>
                     <div className="experience__content">
+                    <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-ion"/>
+                            <div>
+                                <h4>AWS</h4>
+                                <div className="progress-line ps">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </article>
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
@@ -226,7 +203,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4></h4>
+                                <h4>Grpc</h4>
                                 <div className="progress-line autocad">
                                     <span></span>
                                 </div>
@@ -235,7 +212,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4>Proteus</h4>
+                                <h4>REST</h4>
                                 <div className="progress-line proteus">
                                     <span></span>
                                 </div>
