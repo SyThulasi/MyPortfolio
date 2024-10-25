@@ -41,10 +41,10 @@ const About = () => {
                     {/*    </article>*/}
                     {/*</div>*/}
                     <p>
-                        &emsp;Hello!. I'm Thulasiyan Yogeswaran. I am a dedicated and self-motivated computer engineering 
-                        undergraduate seeking a position where I can utilize my skills and gain experience as a full-stack 
-                        or back-end software engineer to further my career, become a successful professional in the industry, 
-                        and make significant contributions to the team and company. <br/><br/>
+                        &emsp;Hello!. I'm Thulasiyan Yogeswaran. I'm a Full Stack Software Engineer with a background in 
+                        Computer Engineering from the University of Peradeniya. Proficient in Java, Python, JavaScript, 
+                        and C, I’m passionate about learning and building innovative, productive projects that make an impact.
+                         I thrive on solving challenges and exploring new technologies to develop creative solutions. <br/><br/>
                         &emsp;
                         {/*&emsp;I am currently doing my undergraduate degree under computing department of Faculty of engineering, University of Peradeniya.*/}
                         {/*I am a passionate tech enthusiast and currently i engaged myself with some web based projects.*/}
@@ -88,7 +88,7 @@ const About = () => {
                 <div className="timeline-items">
                     <div className="timeline-item">
                         <div className="timeline-dot"></div>
-                        <div className="timeline-date">Now</div>
+                        <div className="timeline-date">2024</div>
                         <div className="timeline-content">
                             <h3>BSc Engineering honours in Computer Engineering</h3>
                             <h5>University Of Peradeniya</h5>

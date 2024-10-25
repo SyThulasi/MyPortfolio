@@ -54,8 +54,8 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4>ARM assembly</h4>
-                                <div className="progress-line arm">
+                                <h4>Verilog HDL</h4>
+                                <div className="progress-line verilog">
                                     <span></span>
                                 </div>
                             </div>
@@ -65,6 +65,15 @@ const Experience = () => {
                             <div>
                                 <h4>Verilog HDL</h4>
                                 <div className="progress-line verilog">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill className="experience__details-ion"/>
+                            <div>
+                                <h4>HTML / CSS</h4>
+                                <div className="progress-line arm">
                                     <span></span>
                                 </div>
                             </div>
@@ -181,7 +190,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4>Adobe Photoshop</h4>
+                                <h4>Docker</h4>
                                 <div className="progress-line ps">
                                     <span></span>
                                 </div>
@@ -190,7 +199,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4>Adobe illustrator</h4>
+                                <h4>Apache Kafka</h4>
                                 <div className="progress-line il">
                                     <span></span>
                                 </div>
@@ -199,7 +208,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4>Adobe premiere</h4>
+                                <h4>CI / CD</h4>
                                 <div className="progress-line pr">
                                     <span></span>
                                 </div>
@@ -208,7 +217,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4>Adobe XD</h4>
+                                <h4>Jenkins</h4>
                                 <div className="progress-line xd">
                                     <span></span>
                                 </div>
@@ -217,7 +226,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <BsPatchCheckFill className="experience__details-ion"/>
                             <div>
-                                <h4>Autocad</h4>
+                                <h4></h4>
                                 <div className="progress-line autocad">
                                     <span></span>
                                 </div>
