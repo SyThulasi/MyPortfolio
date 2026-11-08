@@ -20,11 +20,8 @@ export const experience: Experience[] = [
     company: "ISA",
     title: "Software Engineering Intern",
     period: "Aug 2023 — Dec 2023",
-    highlights: [
-      "Built features in a microservice architecture alongside a team of engineers.",
-      "Wrote unit tests, removed code smells, fixed bugs and joined code reviews.",
-      "Delivered an individual cinema reservation platform as the internship project.",
-    ],
+    summary:
+      "Built features in a microservice architecture with Spring Boot, Kafka and gRPC — writing unit tests, fixing bugs and joining code reviews in an agile team. I also delivered a cinema reservation platform as my individual internship project.",
     tech: ["Spring Boot", "Kafka", "gRPC", "PostgreSQL", "Docker", "Jenkins"],
   },
   {

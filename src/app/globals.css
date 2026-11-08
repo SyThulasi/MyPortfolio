@@ -49,7 +49,6 @@
   --animate-pulse-ring: pulse-ring 2s ease-out infinite;
   --animate-blink: blink 1.1s steps(1) infinite;
   --animate-float: float 6s ease-in-out infinite;
-  --animate-float-slow: float 7s ease-in-out -2s infinite;
 
   @keyframes marquee {
     from {

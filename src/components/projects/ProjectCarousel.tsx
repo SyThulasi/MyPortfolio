@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { ChevronLeft, ChevronRight, Code } from "@/components/ui/icons";
+import { ChevronLeft, ChevronRight } from "@/components/ui/icons";
 import { ExternalLink } from "@/components/ui/ExternalLink";
 import type { Project } from "@/data/types";
 import { cn } from "@/lib/cn";
@@ -69,18 +69,7 @@ export function ProjectCarousel({ projects, className }: ProjectCarouselProps) {
             )}
           >
             <div className="relative h-45 overflow-hidden border-b border-line">
-              {project.image ? (
-                <ProjectVisual project={project} number={projectNumber(index)} sizes="300px" />
-              ) : (
-                <div className="flex h-full flex-col justify-between bg-[radial-gradient(ellipse_at_20%_0%,color-mix(in_srgb,var(--accent)_22%,transparent),transparent_70%),#0B0D10] p-4.5">
-                  <span className="inline-flex size-10 items-center justify-center rounded-xl glow-soft text-accent">
-                    <Code size={18} />
-                  </span>
-                  <span className="font-mono text-xs text-subtle">
-                    ~/projects/<span className="text-ink">{project.slug}</span>
-                  </span>
-                </div>
-              )}
+              <ProjectVisual project={project} number={projectNumber(index)} />
             </div>
             <div className="flex flex-1 flex-col gap-2.5 p-4.5">
               <div className="flex justify-between font-mono text-[11px] text-subtle">

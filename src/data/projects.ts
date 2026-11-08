@@ -1,6 +1,3 @@
-import cinema from "@/assets/images/cinema.webp";
-import corals from "@/assets/images/corals.webp";
-import medical from "@/assets/images/medical-annotation.webp";
 import type { Project } from "./types";
 
 const repo = (name: string, owner = "SyThulasi") => `https://github.com/${owner}/${name}`;
@@ -16,7 +13,6 @@ export const projects: Project[] = [
       "Cinema profiles, movie scheduling, per-showtime seat inventory and validated reservations — built as independent Spring Boot services during my ISA internship.",
     stack: ["Spring Boot", "Kafka", "PostgreSQL", "React"],
     repo: repo("CinemaApp"),
-    image: cinema,
   },
   {
     slug: "medical-annotation",
@@ -30,7 +26,6 @@ export const projects: Project[] = [
     repo: repo("e18-4yp-Automated-Medical-Image-Annotation-for-Dataset-Building"),
     website:
       "https://projects.ce.pdn.ac.lk/4yp/e18/Automated-Medical-Image-Annotation-for-Dataset-Building/",
-    image: medical,
   },
   {
     slug: "corals-protector",
@@ -42,7 +37,6 @@ export const projects: Project[] = [
       "Analyses the factors affecting coral growth and human impact on reefs, delivered as a web application on AWS EC2 with controlled access to sensitive data.",
     stack: ["React", "Node.js", "MongoDB", "AWS"],
     repo: repo("e18-3yp-Corals-Protector"),
-    image: corals,
   },
   {
     slug: "sinhala-tamil-ocr",

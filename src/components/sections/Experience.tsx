@@ -114,13 +114,6 @@ function PastRole({ item }: { item: ExperienceItem }) {
         <span className="font-mono text-[11px] text-subtle md:text-xs">{item.period}</span>
       </header>
       {item.summary && <p className="text-sm text-muted md:text-base">{item.summary}</p>}
-      {item.highlights && (
-        <ul className="flex list-disc flex-col gap-2 pl-4.5 text-sm text-muted md:text-base">
-          {item.highlights.map((highlight) => (
-            <li key={highlight}>{highlight}</li>
-          ))}
-        </ul>
-      )}
       {item.tech && <TagList items={item.tech} className="gap-2" />}
     </li>
   );

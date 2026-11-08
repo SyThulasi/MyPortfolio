@@ -78,7 +78,7 @@ export function ProjectShowcase({ projects, className }: ProjectShowcaseProps) {
               </span>
             </div>
             <div className="relative aspect-4/3 overflow-hidden">
-              <ProjectVisual project={current} number={number} sizes="560px" />
+              <ProjectVisual project={current} number={number} />
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import portrait from "@/assets/images/portrait.webp";
-import { ArrowRight, Download, GitHub, LinkedIn, Trophy } from "@/components/ui/icons";
+import { ArrowRight, Download, GitHub, LinkedIn } from "@/components/ui/icons";
 import { ExternalLink } from "@/components/ui/ExternalLink";
 import { Accent } from "@/components/ui/SectionHeading";
 import { headline, profile, socials } from "@/data/profile";
@@ -79,14 +79,15 @@ function Portrait() {
   return (
     <div className="relative mx-auto w-full max-w-[420px] min-w-0 py-6 lg:mx-0 lg:shrink-0">
       <div className="relative rounded-[28px] p-px gradient-frame">
-        <div className="relative aspect-4/5 overflow-hidden rounded-[27px] bg-[#DCDFE3]">
+        <div className="relative aspect-4/5 overflow-hidden rounded-[27px] bg-[#0D0F12] bg-[image:radial-gradient(ellipse_75%_60%_at_50%_42%,color-mix(in_srgb,var(--accent)_30%,transparent),transparent_72%)]">
+          <div aria-hidden="true" className="absolute inset-0 dot-grid" />
           <Image
             src={portrait}
             alt={`Portrait of ${profile.name}`}
             priority
             placeholder="blur"
             sizes="(min-width: 1024px) 420px, 90vw"
-            className="size-full object-cover object-[center_20%] contrast-[1.08] grayscale"
+            className="relative size-full object-cover object-top"
           />
           <div
             aria-hidden="true"
@@ -111,16 +112,6 @@ function Portrait() {
         <br />
         <span className="text-fg">class</span> <span className="text-accent">Reservation</span>
         {"{…}"}
-      </div>
-
-      <div className="absolute -right-2 bottom-23 hidden animate-float-slow items-center gap-3 rounded-[14px] border border-white/10 bg-[rgb(17_20_24/0.75)] px-4 py-3 shadow-[0_20px_50px_rgb(0_0_0/0.45)] backdrop-blur-md sm:flex xl:-right-10">
-        <span className="inline-flex size-8.5 items-center justify-center rounded-[10px] glow-strong text-accent">
-          <Trophy size={18} />
-        </span>
-        <span className="flex flex-col leading-[1.3]">
-          <span className="text-[13px] font-semibold text-ink">HackFest winner</span>
-          <span className="font-mono text-[11px] text-subtle">ACES · 2022</span>
-        </span>
       </div>
     </div>
   );

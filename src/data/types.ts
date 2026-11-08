@@ -1,5 +1,3 @@
-import type { StaticImageData } from "next/image";
-
 export interface SocialLink {
   label: string;
   href: string;
@@ -19,7 +17,6 @@ export interface Experience {
   /** Promotion history, oldest first. */
   roles?: Role[];
   summary?: string;
-  highlights?: string[];
   tech?: string[];
 }
 
@@ -38,7 +35,6 @@ export interface Project {
   stack: string[];
   repo: string;
   website?: string;
-  image?: StaticImageData;
 }
 
 export interface Achievement {

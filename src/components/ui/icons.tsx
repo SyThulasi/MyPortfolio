@@ -98,24 +98,6 @@ export const GraduationCap = (p: IconProps) => (
   </Icon>
 );
 
-export const Trophy = (p: IconProps) => (
-  <Icon {...p}>
-    <path d="M8 21h8" />
-    <path d="M12 17v4" />
-    <path d="M7 4h10v5a5 5 0 0 1-10 0z" />
-    <path d="M17 5h3v2a3 3 0 0 1-3 3" />
-    <path d="M7 5H4v2a3 3 0 0 0 3 3" />
-  </Icon>
-);
-
-export const Code = (p: IconProps) => (
-  <Icon {...p}>
-    <path d="m8 9-4 3 4 3" />
-    <path d="m16 9 4 3-4 3" />
-    <path d="m14 5-4 14" />
-  </Icon>
-);
-
 export const GitHub = (p: IconProps) => (
   <Icon strokeWidth={1.8} {...p}>
     <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21" />

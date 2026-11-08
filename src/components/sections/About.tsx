@@ -52,7 +52,7 @@ function EducationCard() {
   const { research } = education;
 
   return (
-    <div className="relative flex lift flex-col gap-4.5 overflow-hidden rounded-3xl border border-line bg-[radial-gradient(ellipse_80%_60%_at_100%_0%,color-mix(in_srgb,var(--accent)_10%,transparent),transparent_70%),#0F1215] p-5 md:p-7">
+    <div className="relative flex lift flex-col gap-4.5 overflow-hidden rounded-3xl border border-line bg-[#0F1215] bg-[image:radial-gradient(ellipse_80%_60%_at_100%_0%,color-mix(in_srgb,var(--accent)_10%,transparent),transparent_70%)] p-5 md:p-7">
       <span
         aria-hidden="true"
         className="pointer-events-none absolute -right-1.5 -bottom-3.5 font-display text-[110px] leading-none font-bold tracking-[-0.06em] outlined-text md:text-[150px]"
