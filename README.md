@@ -2,7 +2,7 @@
 
 Personal portfolio of a Senior Software Engineer, built as a fully static site and deployed to GitHub Pages.
 
-**Live:** https://sythulasi.github.io/
+**Live:** https://sythulasi.github.io/MyPortfolio/
 
 ## Tech stack
 
@@ -55,7 +55,7 @@ Visitors can switch between Teal (default), Champagne and Mono from the nav. The
 
 ## Deployment
 
-Pushing to `master` runs `.github/workflows/deploy.yml`, which lints, type-checks, builds and publishes `out/` to GitHub Pages. The workflow detects the base path automatically (none for the `SyThulasi.github.io` repository).
+Pushing to `master` runs `.github/workflows/deploy.yml`, which lints, type-checks, builds and publishes `out/` to GitHub Pages. The workflow sets the base path (`/MyPortfolio`) automatically.
 
 One-time setup: in the repository go to **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**.
 

@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 /**
- * GitHub Pages serves project sites from a sub-path; the user site (sythulasi.github.io) uses none.
+ * GitHub Pages serves this project site from a sub-path (/MyPortfolio).
  * The deploy workflow sets NEXT_PUBLIC_BASE_PATH; locally it is empty.
  */
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
