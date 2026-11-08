@@ -29,20 +29,20 @@ export function About() {
 
 function IntroCard() {
   return (
-    <div className="flex lift flex-col gap-4.5 rounded-3xl border border-line bg-linear-to-b from-[#111418] to-card p-6 text-muted md:p-10 md:text-[17px]">
+    <div className="flex lift flex-col gap-4.5 rounded-3xl border border-line bg-linear-to-b from-[#111418] to-card p-6 text-muted md:p-10">
       <p className="font-display text-[22px] leading-[1.3] font-medium text-ink md:text-[26px]">
         I turn messy requirements into systems that are simple to reason about.
       </p>
       <p>
-        I graduated in Computer Engineering from the{" "}
-        <span className="text-fg">University of Peradeniya</span>. During my internship at{" "}
-        <span className="text-fg">ISA</span> I worked on microservices — writing services and tests,
-        fixing code smells and reviewing code in an agile team.
+        I&apos;m a {profile.role} at <span className="text-fg">{profile.company}</span>, building
+        back-end services for an institutional risk, margin and digital-asset platform — from Java
+        and Spring Boot APIs to multi-chain staking and AWS infrastructure. I also shape system
+        design and run releases.
       </p>
       <p>
-        Today I&apos;m a {profile.role} at <span className="text-fg">{profile.company}</span>,
-        building back-end services for an institutional risk, margin and digital-asset platform.
-        Outside work: hackathons, mentoring and ML / IoT side projects.
+        I studied Computer Engineering at the{" "}
+        <span className="text-fg">University of Peradeniya</span> and interned at{" "}
+        <span className="text-fg">ISA</span>, building microservices with Spring Boot and Kafka.
       </p>
     </div>
   );
